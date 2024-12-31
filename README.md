@@ -16,3 +16,15 @@ Schema::table('sessions', function (Blueprint $table) {
 });
 ```
 
+
+### Fresh laravel 11 filament requirements could not be resolved
+
+https://stackoverflow.com/questions/78195658/fresh-laravel-11-filament-install-requirements-could-not-be-resolved-to-an-insta
+
+### Can not install because of platform requirements
+
+"Yes, you can use --ignore-platform-reqs to ignore php, hhvm, lib-* and ext-* platform requirements and force the installation, even if the local..." see [link](https://stackoverflow.com/questions/34637657/is-it-possible-to-ignore-child-dependencies-in-composer-config)
+
+### Session not regenerated after auth attempted
+
+see answer that may help: https://stackoverflow.com/a/71726239
